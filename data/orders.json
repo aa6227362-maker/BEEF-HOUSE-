@@ -1,0 +1,50 @@
+[
+  {
+    "orderNumber": "BH-2026-7758",
+    "createdAt": "2026-10-25T16:30:27.667Z",
+    "riyadhCreatedAt": "٧:٣٠ م",
+    "status": "preparing_weight_confirmation",
+    "lang": "ar",
+    "customer": {
+      "fullName": "عبدالله العتيبي",
+      "phone": "0501234567",
+      "city": "الرياض / Riyadh",
+      "district": "حي الملقا",
+      "streetAddress": "طريق أنس بن مالك، مبنى 14",
+      "notes": "تغليف كل قطعة بشكل منفصل"
+    },
+    "fulfillmentType": "delivery",
+    "paymentMethod": "cod",
+    "hasWeightBasedItems": true,
+    "acceptedWeightPolicy": true,
+    "discountCode": "BEEF10",
+    "items": [
+      {
+        "productId": "prod-ribeye-prime",
+        "nameAr": "ستيك ريب آي فاخر (Ribeye Steak)",
+        "nameEn": "Prime Marbled Ribeye Steak",
+        "weightId": "w-1kg",
+        "weightLabelAr": "1 كيلو (~1000 جرام تقديري)",
+        "weightLabelEn": "1 Kilogram (~1000g est.)",
+        "estimatedWeightKg": 1,
+        "isWeightBased": true,
+        "prepId": "prep-2.5cm",
+        "prepLabelAr": "سماكة 2.5 سم (موصى به للمقلاة)",
+        "prepLabelEn": "2.5 cm Thickness (Pan Sear)",
+        "quantity": 1,
+        "unitEstimatedPriceSar": 165,
+        "lineEstimatedTotalSar": 165,
+        "customCuttingNote": ""
+      }
+    ],
+    "pricing": {
+      "estimatedSubtotalSar": 165,
+      "discountSar": 17,
+      "deliveryFeeSar": 25,
+      "estimatedGrandTotalSar": 173,
+      "isIllustrativeCatalogNotice": true,
+      "weightConfirmationPolicyAr": "تنويه الأوزان والأسعار: الأوزان المعروضة للمنتجات الموزونة هي أوزان تقديرية قبل التقطيع والتنظيف اليدوي. يتم قياس الوزن الفعلي النهائي بعد التجهيز في الملحمة وإبلاغ العميل بالسعر النهائي الدقيق للموافقة عليه قبل الدفع أو التسليم.",
+      "weightConfirmationPolicyEn": "Weight & Pricing Policy: Displayed weights for cut-to-order meats are estimated weights prior to hand trimming. Final confirmed weight is measured after preparation and shared with you for approval before payment collection."
+    }
+  }
+]

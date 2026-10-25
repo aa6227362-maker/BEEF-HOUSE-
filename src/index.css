@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+:root {
+  --bg-black: #000000;
+  --bg-charcoal: #080808;
+  --bg-elevated: #0e0e0e;
+  --brand-ivory: #e0d5cd;
+  --brand-ivory-light: #e1dbd0;
+  --brand-muted: #9e938b;
+  --brand-crimson: #a20000;
+  --brand-crimson-accent: #e6061e;
+  --whatsapp-green: #25d366;
+  --line-subtle: rgba(224, 213, 205, 0.12);
+  --line-strong: rgba(224, 213, 205, 0.24);
+  --font-display-ar: 'El Messiri', serif;
+  --font-body-ar: 'IBM Plex Sans Arabic', system-ui, sans-serif;
+  --font-display-en: 'Cormorant Garamond', Georgia, serif;
+  --font-body-en: 'IBM Plex Sans', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #000000;
+  color: #e0d5cd;
+}
+
+body {
+  background-color: #000000;
+  color: #e0d5cd;
+  font-family: var(--font-body-ar);
+  line-height: 1.7;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+[dir="ltr"] body {
+  font-family: var(--font-body-en);
+}
+
+.font-display {
+  font-family: var(--font-display-ar);
+}
+
+[dir="ltr"] .font-display {
+  font-family: var(--font-display-en);
+  letter-spacing: -0.01em;
+}
+
+.font-mono-num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+h1, h2, h3, h4 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+/* Reference-inspired Eyebrow line */
+.bh-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: #e0d5cd;
+}
+
+.bh-eyebrow::before {
+  content: "";
+  width: 28px;
+  height: 2px;
+  background: #a20000;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+/* Reference-inspired Ken Burns Hero effect */
+@keyframes bhKenBurns {
+  0% {
+    transform: scale(1.06);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-ken-burns {
+  animation: bhKenBurns 11s ease-out forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-ken-burns {
+    animation: none;
+  }
+}
+
+/* Custom subtle dark scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #241e1b;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a20000;
+}

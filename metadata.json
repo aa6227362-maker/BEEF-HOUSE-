@@ -1,0 +1,6 @@
+{
+  "name": "BEEF HOUSE | بيف هاوس — ملحمة فاخرة وشواية في الرياض",
+  "description": "ملحمة BEEF HOUSE في الرياض: قطعيات لحوم فاخرة، ستيك، شواء، ركن الشواية والسندوتشات، ودليل القطعيات. الفرق يبدأ من المصدر.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
